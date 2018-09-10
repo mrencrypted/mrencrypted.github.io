@@ -1,1 +1,3 @@
-# mrencrypted.github.io
+# Welcome to  "mrencrypted.github.io"
+# This is my personal static web site, so...
+# There's nothing to see here, get out!
