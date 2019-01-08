@@ -1,0 +1,219 @@
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mr.Encrypted</title>
+    <link rel="stylesheet" href="./css/blog-portal.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="icon" type="image/png" href="./img/MrEncrypted_FavIcon.png">
+</head>
+
+
+<body id="body-blog">
+
+    <section class="contenedor">
+
+        <div class="inner">
+
+            <div class="content-contenedor">
+                <h1>Mr.Encrypted's Blog</h1>
+                <a class="btn" href="#element1">Last blog </a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--Menu-->
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">Services</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+    </div>
+
+    <div id="navbar">
+        <button id="menuBtn" class="openbtn" onclick="openNav()">☰</button>
+        <a href="#home">Mr Encrypted</a>
+    </div>
+    <!--Menu-->
+
+
+
+
+
+
+    <div id="main">
+
+
+
+
+
+
+
+        <section class="contenedor-blog">
+
+
+            <div id="element-blog-1" class="inner-blog-img">
+
+                <div class="content-contenedor-blog-img">
+                    <img class="img-blog" src="./img/blog-1.jpg">
+
+                </div>
+
+            </div>
+
+            <div id="element-blog-2" class="inner-blog">
+
+                <div class="content-contenedor-blog">
+                    <h1>Titulo del blog</h1>
+                    <a class="btn" href="#Home">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                        unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                        survived not only five centuries, but also the leap into electronic typesetting, remaining
+                        essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                        containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+                        PageMaker including versions of Lorem Ipsum.</a>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <hr id="line-blog">
+
+        <section class="contenedor-blog">
+
+
+            <div id="element-blog-1" class="inner-blog-img">
+
+                <div class="content-contenedor-blog-img">
+                    <img class="img-blog" src="./img/blog-2-low.jpg">
+
+                </div>
+
+            </div>
+
+            <div id="element-blog-2" class="inner-blog">
+
+                <div class="content-contenedor-blog">
+                    <h1>Titulo del blog</h1>
+                    <a class="btn" href="#Home">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                        unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                        survived not only five centuries, but also the leap into electronic typesetting, remaining
+                        essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                        containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+                        PageMaker including versions of Lorem Ipsum.</a>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <hr id="line-blog">
+
+        <section class="contenedor-blog">
+
+
+            <div id="element-blog-1" class="inner-blog-img">
+
+                <div class="content-contenedor-blog-img">
+                    <img class="img-blog" src="./img/blog-1.jpg">
+
+                </div>
+
+            </div>
+
+            <div id="element-blog-2" class="inner-blog">
+
+                <div class="content-contenedor-blog">
+                    <h1>Titulo del blog</h1>
+                    <a class="btn" href="#Home">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                        unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                        survived not only five centuries, but also the leap into electronic typesetting, remaining
+                        essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                        containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+                        PageMaker including versions of Lorem Ipsum.</a>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <hr id="line-blog">
+
+        <section class="contenedor-blog">
+
+
+            <div id="element-blog-1" class="inner-blog-img">
+
+                <div class="content-contenedor-blog-img">
+                    <img class="img-blog" src="./img/blog-2-low.jpg">
+
+                </div>
+
+            </div>
+
+            <div id="element-blog-2" class="inner-blog">
+
+                <div class="content-contenedor-blog">
+                    <h1>Titulo del blog</h1>
+                    <a class="btn" href="#Home">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                        unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                        survived not only five centuries, but also the leap into electronic typesetting, remaining
+                        essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                        containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+                        PageMaker including versions of Lorem Ipsum.</a>
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>
+
+<script>
+    window.onscroll = function () { myFunction() };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+
+    function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginRight = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginRight = "0";
+    }
+
+</script>
