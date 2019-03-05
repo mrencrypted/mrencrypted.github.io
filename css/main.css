@@ -17,11 +17,6 @@ height: 100%;
 overflow: hidden;
 }
 
-@media only screen and (max-width:620px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width:100%;
-}
 
 
 
